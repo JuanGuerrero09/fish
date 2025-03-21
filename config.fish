@@ -19,14 +19,14 @@ end
 
 set -g fish_greeting ''
 
-echo "🔥 Bienvenido, Maestro del Terminal 🔥"
+echo "༒︎God's in his heaven༒︎"
 set_color green
-echo "🚀 Listo para la acción, $USER!"
+echo "All's right with the world"
 set_color normal
 
 function fish_prompt
     set_color cyan
-    echo -n "👤 Ing. Juan "
+    echo -n "🌌 Juan "
     set_color green
     echo -n (prompt_pwd)
     set_color normal
