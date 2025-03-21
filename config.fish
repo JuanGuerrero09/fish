@@ -8,6 +8,10 @@ function config
     cd ~/.config/
 end
 
+# Added nvm in computer that doesn't detect NVM and Node
+set -Ux NVM_DIR $HOME/.nvm
+bass source $NVM_DIR/nvm.sh
+
 # Make Up/Down arrows behave like traditional history navigation
 bind \e\[A up-or-search
 bind \e\[B down-or-search
